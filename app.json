@@ -38,7 +38,7 @@
 		"PREF_BRANCH": {
 			"description": "Upstream repo preffered branch. (Dont Touch This !)",
 			"required": false,
-			"value": "alpha"
+			"value": "beta"
 		}
 	},
 	"buildpacks": [
