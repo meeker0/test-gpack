@@ -94,6 +94,7 @@ _startbot () {
     cd "USERGE-X"
     git init > /dev/null 2>&1
     echo -e ">><< --- >><<  Starting [X]  >><< --- >><<\n" | indent
+    pip install -r requirements.txt
     bash run
 }
 
